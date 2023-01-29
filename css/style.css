@@ -70,3 +70,65 @@ body{
 .texto-buyer{
     color:hsl(333, 80%, 67%);
 }
+
+@media screen and (min-width: 1440px){
+    .container{
+        display: flex;
+        margin: 0em;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container__div{
+        text-align: left;
+    }
+
+    .container__titulo{
+        font-size: 48px;
+        padding: 2.5em 7.5em 0.5em 1.7em;
+    }
+
+    .container__texto{
+        margin: 0 25em 0 4.7em;
+        color: hsl(303, 10%, 53%);
+    }
+
+    .container__div-stars{
+        align-self: flex-end;
+    }
+    .stars{
+        display: flex;
+        margin: 1em;
+        padding: 1.0em;
+        width: 512px;
+    }
+
+    .stars__img{
+        width: 25%;
+        margin-right: 24px;
+    }
+
+    .stars-1{
+        margin-left: -2em;
+    }
+    .stars-3{
+        margin-left: 4em;
+    }
+
+    .container-card{
+        height: 50vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .card-1{
+        margin-bottom: 4em
+    }
+    .card-2{
+        margin-bottom: 2em
+    }
+    .card-3{
+        margin-top: 2em
+    }
+}
