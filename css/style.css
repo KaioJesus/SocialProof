@@ -39,7 +39,9 @@ body{
 
 }
 
-.container__card{}
+.container__card{
+    margin-bottom: 5em;
+}
 
 .card{
     margin: 0.5em 1.5em;
